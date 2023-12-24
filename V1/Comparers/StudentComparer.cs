@@ -16,7 +16,7 @@ namespace Comparers
 
     internal class StudentComparer : IComparer
     {
-        StudentComparerType criterion;
+        private StudentComparerType criterion;
         public StudentComparer(StudentComparerType criterion)
         {
             this.criterion = criterion;

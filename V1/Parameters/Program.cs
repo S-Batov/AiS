@@ -17,11 +17,17 @@ namespace Parameters
         static void Main(string[] args)
         {
             int a = 1; int b = 2;
-            Console.WriteLine("a: " + a + "b:" + b);
+            Console.WriteLine("a: " + a + " b:" + b);
             Swap(ref a, ref b);
-            Console.WriteLine("a: " + a + "b:" + b);
+            Console.WriteLine("a: " + a + " b:" + b);
 
             int[] arr = { 2, 3, 4, 1, 8, 6, 5, 7 };
+            foreach (int i in arr)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("");
+            Swap(ref arr[2], ref arr[3]);
             foreach (int i in arr)
             {
                 Console.WriteLine(i);

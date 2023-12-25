@@ -43,13 +43,13 @@ namespace Recursions
         static void Main(string[] args)
         {
             int result = Factorial(6);
-            Console.WriteLine("Result: " + result);
+            Console.WriteLine("6! = " + result);
 
             result = Fibonacci(6);
-            Console.WriteLine("Result: " + result);
+            Console.WriteLine("Fibonacci of 6 = " + result);
 
             result = FibonacciIter(6);
-            Console.WriteLine("Result: " + result);
+            Console.WriteLine("FibonacciIter of 6 = " + result);
         }
     }
 }
